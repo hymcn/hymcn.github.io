@@ -1,8 +1,8 @@
 # Site settings
-title: moon的家
-email: your-email@domain.com
+title: 请叫我Moon
+email: hymcn2008@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My small blog...
+  这是我的博客，我也不知道它能做些什么，先用着吧。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username:  hymcn

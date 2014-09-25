@@ -8,7 +8,5 @@ url: "" # the base hostname & protocol for your site
 twitter_username:  hymcn
 github_username:   hymcn
 
-permalink: /:year/:month/:day/:title
-
 # Build settings
 markdown: kramdown

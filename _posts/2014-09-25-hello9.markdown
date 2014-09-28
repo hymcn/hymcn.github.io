@@ -4,19 +4,6 @@ title:  "我的github新博客开通了!"
 date:   2014-09-25 14:08:35
 categories: 生活
 ---
-<<<<<<< HEAD
-- adddd
-* dddddd
-
-
-** dddd
-## ddddd
-# ddd
-### dddd
-
-#  大标题
-
-=======
 
 # My blog template
 - 新鲜
@@ -75,7 +62,6 @@ categories: 生活
 
 # contact me
 this is a link [click me](http://hymcn.github.io "moon's home") 
->>>>>>> 17f575c39f22198c096c32b5edfa1c2c896ed3e7
 
 
 

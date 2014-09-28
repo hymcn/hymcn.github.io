@@ -1,5 +1,5 @@
 # Site settings
-title: 请叫我moon
+title: 我叫MOON
 email: hymcn2008@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   这是我的博客，我也不知道它能做些什么，先用着吧。
@@ -7,12 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username:  hymcn
 github_username:   hymcn
-paginate: 20
+paginate: 10
 
-future:      true
-lsi:         false
-pygments:    false
-markdown:    maruku
 permalink:   date
 
 # Build settings

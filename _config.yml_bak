@@ -7,13 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username:  hymcn
 github_username:   hymcn
-paginate: 20
-
-future:      true
-lsi:         false
-pygments:    false
-markdown:    maruku
-permalink:   date
 
 # Build settings
 markdown: kramdown

@@ -1,10 +1,16 @@
 ---
 layout: post
-title:  "no title"
+title:  "about nginx"
 date:   2014-10-08 14:08:35
 categories: default 
 ---
 
-# Just a blank template.
+About nginx 
+######
+
+
+## nginx防盗链
+valid_referers none blocked yourhost.com
+
 
 

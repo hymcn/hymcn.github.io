@@ -7,15 +7,16 @@
 </head>
 <body>
 <image src="../img/test.jpg"></image>
+<div id="main">
+    hello world
+</div>
+<input type="button" onclick="addBorder" value="click me" />
 </body>
 <script>
-    $.ajax({
-        url:"http://api.map.baidu.com/telematics/v3/weather?location=北京&output=json&ak=H7W5CxI0BPzKtwGcBHmpGPAz50xP1Qjw",
-        dataType:"jsonp",
-        jsonpCallback:"admin_cross",
-        success:function(data){
-            console.log(data)
-        }
-    })
+    function addBorder() {
+        console.log("hello ")
+        $("#main").css("border","solid 1px red")
+    }
+
 </script>
 </html>

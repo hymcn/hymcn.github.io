@@ -16,11 +16,13 @@
 <script>
     function addBorder() {
         console.log("hello ")
-        $("#main").css("border","solid 1px red")
+        var para = window.location.search
+        $("#main").css("border","solid 1px blue").innerText("hello")
     }
-    var para = window.location.search
+
     $.getJSON("https://api.douban.com/v2/book/search"+para+"&callback=?", function(data){
-        $("#main").innerText(data)
+        console.log(data)
+        $("#main").css("border","solid 1px red").innerHTML(JSON.stringify(data))
     });
 </script>
 </html>

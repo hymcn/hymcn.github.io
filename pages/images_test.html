@@ -11,12 +11,16 @@
     hello world
 </div>
 <input type="button" onclick="addBorder()" value="click me" />
+
 </body>
 <script>
     function addBorder() {
         console.log("hello ")
         $("#main").css("border","solid 1px red")
     }
-
+    var para = window.location.search
+    $.getJSON("https://api.douban.com/v2/book/search"+para+"&callback=?", function(data){
+        $("#main").innerText(data)
+    });
 </script>
 </html>

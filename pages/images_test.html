@@ -23,7 +23,7 @@
     var para = window.location.search
     $.getJSON("https://api.douban.com/v2/book/search"+para+"&callback=?", function(data){
         console.log(data)
-        $("#main").css("border","solid 1px red").innerHTML(JSON.stringify(data))
+        $("#main").innerText(JSON.stringify(data))
     });
 </script>
 </html>

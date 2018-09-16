@@ -11,8 +11,7 @@
     var para = window.location.search
     if(para != ""){
         $.getJSON("http://www.zjkyx.net/index.php?home/index/index&"+para.substring(1)+"&callback=?", function(data){
-        $("#main").html(JSON.stringify(data))
-     }
-   });
+        $("#main").html(JSON.stringify(data))})
+   };
 </script>
 </html>

@@ -10,7 +10,9 @@
 <script>
     var para = window.location.search
     if(para != ""){
-        $.getJSON("http://www.zjkyx.net/index.php?home/index/index&"+para.substring(1)+"&callback=?", function(data){
+        var url = "http://www.zjkyx.net/index.php?home/index/index&"+para.substring(1)+"&callback=?"
+        console.log(url)
+        $.getJSON(url, function(data){
         $("#main").html(JSON.stringify(data))})
    };
 </script>

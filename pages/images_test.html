@@ -20,7 +20,7 @@
     }
 
     var para = window.location.search
-    $.getJSON("https://api.douban.com/v2/book/search"+para+"&callback=?", function(data){
+    $.getJSON("http://api.douban.com/v2/book/search"+para+"&callback=?", function(data){
         console.log(data)
         $("#main").html(JSON.stringify(data))
     });

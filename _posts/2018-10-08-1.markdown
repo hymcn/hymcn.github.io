@@ -1,0 +1,9 @@
+---
+layout: blank
+title:  "hello 1" 
+---
+hello blank
+
+​	
+
+​	
